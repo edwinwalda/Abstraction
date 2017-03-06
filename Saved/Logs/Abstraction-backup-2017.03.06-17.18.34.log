@@ -1,0 +1,295 @@
+﻿Log file open, 03/06/17 13:47:02
+LogInit:Display: Running engine for game: Abstraction
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(769535256) SRandInit(769535256).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.051156
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.06-18.47.04:079][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-18.47.04:079][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.06-18.47.04:228][  0]LogInit: Computer: MSI
+[2017.03.06-18.47.04:228][  0]LogInit: User: EdwinWalda
+[2017.03.06-18.47.04:228][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.06-18.47.04:228][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2017.03.06-18.47.04:229][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.06-18.47.04:229][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-18.47.04:229][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
+[2017.03.06-18.47.04:229][  0]LogMemory: Process Virtual Memory: 262.52 MB used, 262.52 MB peak
+[2017.03.06-18.47.04:229][  0]LogMemory: Physical Memory: 5675.02 MB used,  10594.27 MB free, 16269.29 MB total
+[2017.03.06-18.47.04:229][  0]LogMemory: Virtual Memory: 644.24 MB used,  10594.27 MB free, 134217728.00 MB total
+[2017.03.06-18.47.06:004][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.06-18.47.10:316][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.06-18.47.10:385][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.03.06-18.47.10:385][  0]LogD3D11RHI:       6100/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.06-18.47.10:395][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.06-18.47.10:395][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.06-18.47.10:396][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.06-18.47.10:396][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.06-18.47.10:396][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.06-18.47.10:401][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.06-18.47.10:401][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.06-18.47.10:401][  0]LogWindows: EnumDisplayDevices:
+[2017.03.06-18.47.10:401][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.03.06-18.47.10:401][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.03.06-18.47.10:402][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.06-18.47.10:402][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.03.06-18.47.10:402][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2017.03.06-18.47.10:402][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.06-18.47.10:403][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.06-18.47.10:427][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.06-18.47.10:772][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.06-18.47.10:828][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Intermediate/Shaders/WorkingDirectory/22196/).
+[2017.03.06-18.47.10:828][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EdwinWalda/AppData/Local/Temp/UnrealShaderWorkingDir/DBA38C6E4F0BA66D7CCDE882AD0E9058/'.
+[2017.03.06-18.47.10:829][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.06-18.47.15:009][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.06-18.47.15:104][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.06-18.47.15:147][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.06-18.47.15:207][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.06-18.47.15:274][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.06-18.47.15:319][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.06-18.47.15:364][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.06-18.47.15:410][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.06-18.47.15:445][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.06-18.47.15:493][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.06-18.47.15:538][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.06-18.47.15:581][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.06-18.47.15:625][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.06-18.47.15:669][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.06-18.47.15:718][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.06-18.47.15:810][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.06-18.47.15:810][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.06-18.47.15:839][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.06-18.47.16:021][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.06-18.47.16:066][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.06-18.47.16:111][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.06-18.47.16:154][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.06-18.47.16:197][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.06-18.47.16:257][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.06-18.47.16:257][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.06-18.47.17:749][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache: Loaded boot cache 0.39s 52MB C:/Users/EdwinWalda/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/EdwinWalda/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.06-18.47.18:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.06-18.47.18:254][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.06-18.47.18:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EdwinWalda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.06-18.47.18:425][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.06-18.47.18:547][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-18.47.18:547][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-18.47.28:416][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-18.47.28:450][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.06-18.47.29:068][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.06-18.47.29:211][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.06-18.47.29:256][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.06-18.47.29:256][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.06-18.47.29:256][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.06-18.47.34:179][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: abstraction, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1361863522
+[2017.03.06-18.47.34:321][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2017.03.06-18.47.34:529][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.161729 seconds
+[2017.03.06-18.47.34:536][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.06-18.47.34:536][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.06-18.47.34:536][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.06-18.47.34:597][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.06-18.47.53:677][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.03.06-18.47.53:814][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.06-18.47.53:864][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.06-18.47.55:402][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.06-18.47.56:344][  0]SourceControl: Info Source control is disabled
+[2017.03.06-18.47.56:431][  0]SourceControl: Info Source control is disabled
+[2017.03.06-18.47.56:588][  0]SourceControl: Info Source control is disabled
+[2017.03.06-18.47.56:647][  0]SourceControl: Info Source control is disabled
+[2017.03.06-18.47.59:377][  0]LogEngine: Initializing Engine...
+[2017.03.06-18.47.59:379][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.06-18.48.00:962][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.06-18.48.01:082][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.06-18.48.01:177][  0]LogInit: FAudioDevice initialized.
+[2017.03.06-18.48.01:206][  0]LogDerivedDataCache: Saved boot cache 0.03s 60MB C:/Users/EdwinWalda/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.06-18.48.01:218][  0]LogInit: Texture streaming: Enabled
+[2017.03.06-18.48.01:377][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.06-18.48.01:377][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={F0035C2E-43B1-5BFC-58E3-59BEF6F4F708}
+[2017.03.06-18.48.01:583][  0]LogInit: Transaction tracking system initialized
+[2017.03.06-18.48.02:200][  0]BlueprintLog: New page: Editor Load
+[2017.03.06-18.48.04:263][  0]LocalizationService: Info Localization service is disabled
+[2017.03.06-18.48.05:643][  0]LogConsoleResponse:Display: 
+[2017.03.06-18.48.07:421][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.06-18.48.07:421][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.06-18.48.07:505][  0]LogFileCache: Scanning file cache for directory 'D:/Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Content/' took 0.03s
+[2017.03.06-18.48.09:540][  0]SourceControl: Info Source control is disabled
+[2017.03.06-18.48.09:584][  0]Cmd: MAP LOAD FILE="../../../../../../Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Content/RollingBP/Maps/Testmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.06-18.48.09:720][  0]LightingResults: New page: Lighting Build
+[2017.03.06-18.48.09:891][  0]MapCheck: New page: Map Check
+[2017.03.06-18.48.09:892][  0]LightingResults: New page: Lighting Build
+[2017.03.06-18.48.11:721][  0]LogAIModule: Creating AISystem for world Testmap
+[2017.03.06-18.48.12:000][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.06-18.48.12:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.06-18.48.12:045][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.125ms to complete.
+[2017.03.06-18.48.12:045][  0]LogFileHelpers: Loading map 'Testmap' took 2.472
+[2017.03.06-18.48.13:171][  0]LogCollectionManager: Loaded 1 collections in 0.021914 seconds
+[2017.03.06-18.48.13:340][  0]LogFileCache: Scanning file cache for directory 'D:/Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Saved/Collections/' took 0.01s
+[2017.03.06-18.48.13:340][  0]LogFileCache: Scanning file cache for directory 'D:/Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Content/Developers/EdwinWalda/Collections/' took 0.01s
+[2017.03.06-18.48.13:340][  0]LogFileCache: Scanning file cache for directory 'D:/Users/EdwinWalda/Documents/Unreal Projects/Abstraction 4.15/Content/Collections/' took 0.01s
+[2017.03.06-18.48.13:340][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000010 seconds
+[2017.03.06-18.48.13:347][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.06-18.48.13:364][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2258 classes and 456 folders.
+[2017.03.06-18.48.13:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.06-18.48.13:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.06-18.48.13:471][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.06-18.48.14:357][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.06-18.48.14:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.03.06-18.48.14:975][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.06-18.48.15:090][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.06-18.48.15:303][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.06-18.48.15:304][  0]LogLoad: (Engine Initialization) Total time: 84.29 seconds
+[2017.03.06-18.48.15:304][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.07 seconds
+[2017.03.06-18.48.15:304][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.06-18.48.15:304][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.06-18.48.15:343][  0]LogOcInput: OculusInput pre-init called
+[2017.03.06-18.48.15:420][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.06-18.48.15:458][  0]LogSlate: Took 0.012641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.06-18.48.15:483][  0]LogSlate: Took 0.020518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.06-18.48.15:508][  0]LogSlate: Took 0.016288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.06-18.48.16:041][  0]LogRenderer: Reallocating scene render targets to support 960x584 NumSamples 1 (Frame:2).
+[2017.03.06-18.48.16:310][  1]Cmd: ACTOR SELECT ALL
+[2017.03.06-18.48.16:681][  1]LogSlate: Took 0.010601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.06-18.48.16:783][  3]LogAssetRegistry: Asset discovery search completed in 42.4851 seconds
+[2017.03.06-18.48.16:783][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000018 seconds (found 0 objects)
+[2017.03.06-18.48.16:783][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000034 seconds (updated 0 objects)
+[2017.03.06-18.51.49:325][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.03.06-18.51.50:635][247]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.06-18.51.50:696][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.51.50:696][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-18.51.50:713][247]PIE: New page: PIE session: Testmap (Mar 6, 2017, 8:51:50 AM)
+[2017.03.06-18.51.50:735][247]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Testmap
+[2017.03.06-18.51.50:772][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036032s)
+[2017.03.06-18.51.50:774][247]LogAIModule: Creating AISystem for world Testmap
+[2017.03.06-18.51.50:775][247]LogPlayLevel: PIE: World Init took: (0.002681s)
+[2017.03.06-18.51.50:775][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Testmap.Testmap to /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap (0.062562s)
+[2017.03.06-18.51.50:839][247]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.06-18.51.50:927][247]LogInit: FAudioDevice initialized.
+[2017.03.06-18.51.51:075][247]LogLoad: Game class is 'AbstractionGamMode_C'
+[2017.03.06-18.51.51:113][247]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap up for play (max tick rate 60) at 2017.03.06-13.51.51
+[2017.03.06-18.51.51:125][247]LogWorld: Bringing up level for play took: 0.012434
+[2017.03.06-18.51.51:175][247]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.06-18.51.51:175][247]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.51.51:175][247]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.51.51:175][247]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.51.51:203][247]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.51.51:214][247]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Testmap 1.001
+[2017.03.06-18.51.51:218][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.53.29:345][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.53.29:832][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.54.03:410][407]Cmd: SELECT NONE
+[2017.03.06-18.56.44:370][457]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.06-18.56.44:383][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.56.44:383][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-18.56.44:383][457]PIE: New page: PIE session: Testmap (Mar 6, 2017, 8:56:44 AM)
+[2017.03.06-18.56.44:383][457]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Testmap
+[2017.03.06-18.56.44:388][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004251s)
+[2017.03.06-18.56.44:389][457]LogAIModule: Creating AISystem for world Testmap
+[2017.03.06-18.56.44:389][457]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2017.03.06-18.56.44:389][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Testmap.Testmap to /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap (0.005767s)
+[2017.03.06-18.56.44:410][457]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.06-18.56.44:496][457]LogInit: FAudioDevice initialized.
+[2017.03.06-18.56.44:531][457]LogLoad: Game class is 'AbstractionGamMode_C'
+[2017.03.06-18.56.44:534][457]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap up for play (max tick rate 60) at 2017.03.06-13.56.44
+[2017.03.06-18.56.44:534][457]LogWorld: Bringing up level for play took: 0.001634
+[2017.03.06-18.56.44:534][457]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.56.44:534][457]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.56.44:534][457]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.56.44:535][457]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.56.44:535][457]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Testmap 0.322
+[2017.03.06-18.56.44:535][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.57.57:887][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.57.57:918][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.59.31:362][367]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.06-18.59.31:374][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-18.59.31:374][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-18.59.31:374][367]PIE: New page: PIE session: Testmap (Mar 6, 2017, 8:59:31 AM)
+[2017.03.06-18.59.31:374][367]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Testmap
+[2017.03.06-18.59.31:379][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005159s)
+[2017.03.06-18.59.31:380][367]LogAIModule: Creating AISystem for world Testmap
+[2017.03.06-18.59.31:380][367]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2017.03.06-18.59.31:381][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Testmap.Testmap to /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap (0.006425s)
+[2017.03.06-18.59.31:401][367]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.06-18.59.31:494][367]LogInit: FAudioDevice initialized.
+[2017.03.06-18.59.31:522][367]LogLoad: Game class is 'AbstractionGamMode_C'
+[2017.03.06-18.59.31:525][367]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Testmap.Testmap up for play (max tick rate 60) at 2017.03.06-13.59.31
+[2017.03.06-18.59.31:525][367]LogWorld: Bringing up level for play took: 0.001504
+[2017.03.06-18.59.31:526][367]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.59.31:526][367]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-18.59.31:526][367]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.59.31:526][367]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-18.59.31:527][367]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Testmap -0.686
+[2017.03.06-18.59.31:527][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-19.00.14:802][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-19.00.14:835][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap' with GeneratedClass '/Game/RollingBP/Maps/Testmap.Testmap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Testmap.Testmap:PersistentLevel.Testmap'
+[2017.03.06-19.39.45:385][251]LogHttp:Warning: 000001B48DB07E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.06-19.39.45:385][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b4ef91bd60 [can pipeline])
+[2017.03.06-19.39.45:385][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.156.214) port 443 (#6))
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 3 (upload completely sent off: 339 out of 339 bytes)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 6 (Closing connection 6)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8C472E2-43FE-CAD4-0A0F-9583BBC377DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=0e01247b410d18886177be85b4562594%7C839dfa0d40f842fa877110203ac51f58%7C6f89cc11-a547-40a8-a007-3b0a7e21488f&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.06-19.39.45:386][251]LogHttp:Warning: 000001B48DB07E80: libcurl info message cache 9 (Closing connection 7)
+[2017.03.06-19.40.15:390][341]LogHttp:Warning: 000001B4EF40E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.06-19.40.15:391][341]LogHttp:Warning: 000001B4EF40E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.06-19.40.15:391][341]LogHttp:Warning: 000001B4EF40E500: libcurl info message cache 1 (Closing connection 8)
+[2017.03.06-19.41.15:386][521]LogHttp:Warning: 000001B4EF40E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.06-19.41.15:386][521]LogHttp:Warning: 000001B4EF40E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.06-19.41.15:386][521]LogHttp:Warning: 000001B4EF40E800: libcurl info message cache 1 (Closing connection 9)
+[2017.03.06-19.42.26:390][734]LogHttp:Warning: 000001B4EF40C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.06-19.42.26:390][734]LogHttp:Warning: 000001B4EF40C880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.06-19.42.26:390][734]LogHttp:Warning: 000001B4EF40C880: libcurl info message cache 1 (Closing connection 10)
